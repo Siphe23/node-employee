@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../assets/Dashboard.css';
+import '../styles/Dashboard.css';
 
-const Dashboard = () => {
+const AdminDashboard = () => {
+
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -59,4 +60,5 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+
+export default AdminDashboard;

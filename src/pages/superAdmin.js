@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';  
-import EmployeeForm from './EmployeeForm'; 
-import GeneralAdminForm from './GeneralAdminForm'; 
+import EmployeeForm from '../pages/employForm'; 
+import GeneralAdminForm from '../pages/generalAdmin'; 
 
 function SuperAdmin() {
   const [showEmployeeForm, setShowEmployeeForm] = useState(false);
